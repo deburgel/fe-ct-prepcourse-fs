@@ -1,0 +1,184 @@
+body{
+    background-color: rgb(37, 0, 71);
+}
+
+.header{
+    background-color: #ff0000b0; 
+    color: #ffffff; 
+    text-align: right; 
+    padding: 15px; 
+    border-bottom: 2px solid #0056b3; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3em;
+
+    }
+
+#titulo{
+    text-decoration: underline;
+}
+
+#parrafoheader{
+    margin: 20px;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    text-align: left;
+    font-size: 1em;
+    border: 5px solid black;
+    padding: 10px;
+}   
+
+#parrafoheader:hover{
+    border-color: rgb(2, 2, 75);
+    background-color: rgba(23, 23, 136, 0.575);
+    transition: border-color 2seg;
+    transition: background-color 4seg;
+}
+
+.bienvenida{
+    text-align: center; 
+    padding: 15px; 
+    font-size: 4em;
+    background-image: url(fondo\ bienvenida.jpg);
+    background-size: cover;
+}
+
+#bienvenidapag{
+    color: #ffffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2em;
+    font-style: italic;
+    text-decoration: solid;
+    border: whitesmoke solid 4px;   
+    padding: 3%;
+    background-color: rgba(65, 12, 114, 0.589);
+}
+
+#bienvparraf{
+    color: #000000;
+    font-family: 'Arial', sans-serif;
+    font-size: 18px; 
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px; 
+    margin-right: 600px; 
+    border-left: 5px solid #333; 
+    padding-left: 10px; 
+    background-color: #f7f7f762;
+    padding: 20px;
+    border: 2px solid #ccc; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+.contenedor {
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none; 
+    padding: 0;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(17, 2, 56);
+}
+
+.elemento {
+    text-align: center;
+    padding: 0px;
+    border: 5px solid #ccc;
+    border-radius: 10%;
+    background-color: rgba(250, 235, 215, 0.432);
+    border
+    flex: 1; 
+    margin: 10px; 
+}
+
+.elemento img {
+    width: 5em; 
+    height: auto; 
+}
+
+.acerca{
+    background-color: #ff0000b0; 
+    color: #ffffff; 
+    text-align: right; 
+    padding: 15px; 
+    border-bottom: 2px solid #0056b3; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
+}
+
+#tituloacerca{
+    text-decoration: underline
+}
+
+#parrafoacerca{
+    margin: 20px;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    text-align: left;
+    font-size: 1em;
+    border: 5px solid black;
+    padding: 10px;
+
+}
+
+#parrafoacerca:hover{
+    border-color: rgb(2, 2, 75);
+    background-color: rgba(23, 23, 136, 0.575);
+    transition: border-color 2seg;
+    transition: background-color 4seg;
+}
+
+.servicios{
+    margin: 20px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    font-size: 3em;
+    border: 5px solid black;
+    padding: 10px;
+    background-color: blue;
+}
+
+#tituloservicios{
+    margin: 20px;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.conclu{
+    margin: 20px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    font-size: 2em;
+    border: 5px solid black;
+    padding: 10px;
+    background-color: blue;
+}
+
+#tituloconclu{
+    margin: 20px;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    text-align: center;
+}
+
+footer{
+    background-color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    font-style: italic;
+    text-align: center;
+}
